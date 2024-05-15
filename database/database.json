@@ -1,0 +1,426 @@
+{
+  "sessions": [
+    {
+      "id": "-1002007545953:554983957",
+      "data": {
+        "__scenes": {},
+        "openChatHour": "12",
+        "stopChatHour": "20"
+      }
+    },
+    {
+      "id": "554983957:554983957",
+      "data": {
+        "__scenes": {},
+        "openChatHour": "/set_open_time"
+      }
+    },
+    {
+      "id": "-1002007545953:1087968824",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002007545953:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "443147931:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-4218092054:554983957",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:554983957",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:1682475266",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:1965143429",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:5015953982",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002001467374:950801132",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-4257796931:554983957",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002028004670:554983957",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002028004670:1087968824",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1001743531919:554983957",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002031778541:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002031778541:1575251231",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-4004260578:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002053964436:94337133",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002053964436:1087968824",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-4004260578:94337133",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002053964436:443147931",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1002031778541:90130832",
+      "data": {
+        "__scenes": {}
+      }
+    }
+  ],
+  "groups": {
+    "openChatHour": "9",
+    "stopChatHour": "15",
+    "expirePlanYear": "1",
+    "toggleChat": "TIMER",
+    "openChatText": "هنرآموز عزیز سلام 😍\n\nگروه پشتیبانی برای پاسخگویی شما عزیران باز می باشد.\n\n\nساعات پاسخگویی از ۹ صبح تا ۱۷ می باشد.",
+    "memberJoinedText": "به گروه پشتیبانی دارک آفیس خوش آمدید 😍\nشما تا تاریخ __date شامل پشتیبانی رایگان هستید و پس از اتمام این زمان در صورت نیاز میتوانید تمدید نمایید.",
+    "stopChatText": "❌ اتمام زمان پشتیبانی گروه! ❌\n \n✅ ساعت باز شدن و شروع پشتیبانی گروه ۹ صبح می باشد.\n🚫 لطفا از ارسال پیام به پی وی پشتیبان هاخودداری نمایید، پاسخگو نخواهند بود.\n\n✅ در صورتی که برای مشاهده ویدیوها با مشکلی روبرو شدید به ربات پشتیبانی میتوانید مراجعه کنید \n\n@DarcOfficeBot\n@DarcOfficeBot",
+    "groups": [
+      {
+        "info": {
+          "id": -1002028004670,
+          "title": "dark office 2",
+          "type": "supergroup",
+          "invite_link": "https://t.me/+3GMIOHlNbXk3NDQ0",
+          "permissions": {
+            "can_send_messages": true,
+            "can_send_media_messages": true,
+            "can_send_audios": true,
+            "can_send_documents": true,
+            "can_send_photos": true,
+            "can_send_videos": true,
+            "can_send_video_notes": true,
+            "can_send_voice_notes": true,
+            "can_send_polls": true,
+            "can_send_other_messages": true,
+            "can_add_web_page_previews": true,
+            "can_change_info": true,
+            "can_invite_users": true,
+            "can_pin_messages": true,
+            "can_manage_topics": true
+          },
+          "join_to_send_messages": true,
+          "max_reaction_count": 11,
+          "accent_color_id": 6
+        },
+        "stopChatHour": 9,
+        "openChatHour": 14,
+        "toggleChat": "OPEN"
+      },
+      {
+        "info": {
+          "id": -1002001467374,
+          "title": "test bot darc",
+          "type": "supergroup",
+          "invite_link": "https://t.me/+EVCwFuUUkLYzMmM0",
+          "permissions": {
+            "can_send_messages": true,
+            "can_send_media_messages": true,
+            "can_send_audios": true,
+            "can_send_documents": true,
+            "can_send_photos": true,
+            "can_send_videos": true,
+            "can_send_video_notes": true,
+            "can_send_voice_notes": true,
+            "can_send_polls": true,
+            "can_send_other_messages": true,
+            "can_add_web_page_previews": true,
+            "can_change_info": true,
+            "can_invite_users": true,
+            "can_pin_messages": true,
+            "can_manage_topics": true
+          },
+          "join_to_send_messages": true,
+          "max_reaction_count": 11,
+          "accent_color_id": 4
+        },
+        "stopChatHour": 23,
+        "openChatHour": 14,
+        "toggleChat": "OPEN"
+      },
+      {
+        "info": {
+          "id": -1002031778541,
+          "title": "همکاران دارک آفیس",
+          "type": "supergroup",
+          "invite_link": "https://t.me/+Ur686R3fOucwMjQ8",
+          "has_visible_history": true,
+          "permissions": {
+            "can_send_messages": true,
+            "can_send_media_messages": true,
+            "can_send_audios": true,
+            "can_send_documents": true,
+            "can_send_photos": true,
+            "can_send_videos": true,
+            "can_send_video_notes": true,
+            "can_send_voice_notes": true,
+            "can_send_polls": true,
+            "can_send_other_messages": true,
+            "can_add_web_page_previews": true,
+            "can_change_info": false,
+            "can_invite_users": false,
+            "can_pin_messages": false,
+            "can_manage_topics": true
+          },
+          "join_to_send_messages": true,
+          "photo": {
+            "small_file_id": "AQADBAADb8oxG0ZBuFEACAIAAxN1QLIW____MRrGXg1muM41BA",
+            "small_file_unique_id": "AQADb8oxG0ZBuFEAAQ",
+            "big_file_id": "AQADBAADb8oxG0ZBuFEACAMAAxN1QLIW____MRrGXg1muM41BA",
+            "big_file_unique_id": "AQADb8oxG0ZBuFEB"
+          },
+          "pinned_message": {
+            "message_id": 144,
+            "from": {
+              "id": 443147931,
+              "is_bot": false,
+              "first_name": "ℳ.o.み.ﾑ.ℳ.ℳ.ﾑ.の",
+              "username": "SmuhammadR",
+              "language_code": "en"
+            },
+            "chat": {
+              "id": -1002031778541,
+              "title": "همکاران دارک آفیس",
+              "type": "supergroup"
+            },
+            "date": 1710684044,
+            "text": "همکاران عزیز سلام \nسال نو پیشاپیش مبارک 😍\nانشاا... تعطیلات نوروز بهتون خوش بگذره و ایام خوبی سپری کنید\nبا توجه به حجم تعطیلات فروردین ماه مرخصی ماهانه در فروردین نداریم \n\nو از تاریخ 5 فروردین تا 11 فروردین برای حضور در شرکت رای با اکثریت همکاران می باشد در صورت عدم حضور مرخصی بدون اعمال حقوق داده خواهد شد\n\nلازم به ذکر است پشتیبانی فنی و فروش فقط روز اول و دوم فروردین تعطیل می باشند و مابقی ایام پاسخگو تلگرام خواهند بود.\nممنون از توجهتون ❤️\nلطفا نظر خودتونو در مورد حضور یا عدم حضور در این ایام اعلام نمایید"
+          },
+          "max_reaction_count": 11,
+          "accent_color_id": 2
+        },
+        "stopChatHour": 9,
+        "openChatHour": 21,
+        "toggleChat": "STOP"
+      },
+      {
+        "info": {
+          "id": -4004260578,
+          "title": "تنخواه گردان",
+          "type": "group",
+          "permissions": {
+            "can_send_messages": false,
+            "can_send_media_messages": false,
+            "can_send_audios": false,
+            "can_send_documents": false,
+            "can_send_photos": false,
+            "can_send_videos": false,
+            "can_send_video_notes": false,
+            "can_send_voice_notes": false,
+            "can_send_polls": false,
+            "can_send_other_messages": false,
+            "can_add_web_page_previews": false,
+            "can_change_info": false,
+            "can_invite_users": false,
+            "can_pin_messages": false,
+            "can_manage_topics": false
+          },
+          "all_members_are_administrators": false,
+          "max_reaction_count": 11,
+          "accent_color_id": 3
+        },
+        "stopChatHour": 9,
+        "openChatHour": 21,
+        "toggleChat": "TIMER"
+      }
+    ]
+  },
+  "users": [
+    {
+      "memberInfo": {
+        "id": 6877514975,
+        "is_bot": false,
+        "first_name": "𝐌𝗼𝐞𝐢𝐧",
+        "last_name": "𝐓𝐚𝐫𝐢𝐠𝐡𝐢",
+        "username": "Moein_tarighi025"
+      },
+      "expired_plan_date": "1404/02/23"
+    },
+    {
+      "memberInfo": {
+        "id": 554983957,
+        "is_bot": false,
+        "first_name": "ᴍᴍᴅ",
+        "username": "themmd_Ta",
+        "language_code": "en"
+      },
+      "expired_plan_date": "1405/02/24"
+    },
+    {
+      "memberInfo": {
+        "id": 1682475266,
+        "is_bot": false,
+        "first_name": "mo",
+        "last_name": "as",
+        "username": "arsm20"
+      },
+      "expired_plan_date": "1405/02/24"
+    },
+    {
+      "memberInfo": {
+        "id": 1173285919,
+        "is_bot": false,
+        "first_name": "ℨ𝔈𝔘𝔖",
+        "username": "END_OF_THE_LINE_o0"
+      },
+      "expired_plan_date": "1405/02/24"
+    },
+    {
+      "memberInfo": {
+        "id": 1242341385,
+        "is_bot": false,
+        "first_name": "🖤yousef🖤",
+        "username": "elfooey"
+      },
+      "expired_plan_date": "1405/02/25"
+    },
+    {
+      "memberInfo": {
+        "id": 1965143429,
+        "is_bot": false,
+        "first_name": "arash",
+        "username": "arashalipourrr"
+      },
+      "expired_plan_date": "1405/02/25"
+    },
+    {
+      "memberInfo": {
+        "id": 5015953982,
+        "is_bot": false,
+        "first_name": "Mr.P…",
+        "username": "HitIl3r"
+      },
+      "expired_plan_date": "1404/02/25"
+    },
+    {
+      "memberInfo": {
+        "id": 950801132,
+        "is_bot": false,
+        "first_name": "پشتیبانی فروش",
+        "last_name": "دارک آفیس",
+        "username": "poshtiban_darc"
+      },
+      "expired_plan_date": "1404/02/25"
+    }
+  ],
+  "admins": [
+    {
+      "id": 554983957,
+      "first_name": "ᴍᴍᴅ",
+      "username": "themmd_Ta",
+      "type": "private",
+      "active_usernames": [
+        "themmd_Ta"
+      ],
+      "bio": "هنوزم چشمای تو مثل شبای پر ستارس...",
+      "has_private_forwards": true,
+      "photo": {
+        "small_file_id": "AQADBAADDakxGxViFCEACAIAAxViFCEABFUnjRclKmhaNQQ",
+        "small_file_unique_id": "AQADDakxGxViFCEAAQ",
+        "big_file_id": "AQADBAADDakxGxViFCEACAMAAxViFCEABFUnjRclKmhaNQQ",
+        "big_file_unique_id": "AQADDakxGxViFCEB"
+      },
+      "max_reaction_count": 11,
+      "accent_color_id": 3
+    },
+    {
+      "id": 443147931,
+      "first_name": "ℳ.o.み.ﾑ.ℳ.ℳ.ﾑ.の",
+      "username": "SmuhammadR",
+      "type": "private",
+      "active_usernames": [
+        "SmuhammadR"
+      ],
+      "bio": "😊😇🙂🙃",
+      "photo": {
+        "small_file_id": "AQADBAAD76cxG5vmaRoACAIAA5vmaRoABAU0wemlGPtgNQQ",
+        "small_file_unique_id": "AQAD76cxG5vmaRoAAQ",
+        "big_file_id": "AQADBAAD76cxG5vmaRoACAMAA5vmaRoABAU0wemlGPtgNQQ",
+        "big_file_unique_id": "AQAD76cxG5vmaRoB"
+      },
+      "max_reaction_count": 11,
+      "accent_color_id": 2
+    }
+  ]
+}

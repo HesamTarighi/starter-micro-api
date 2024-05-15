@@ -1,0 +1,25 @@
+{
+  "name": "dark-office",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsx watch app",
+    "start": "node .",
+    "build": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jalali-moment": "^3.3.11",
+    "telegraf": "^4.16.3",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}
