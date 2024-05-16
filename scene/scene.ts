@@ -143,7 +143,7 @@ export namespace BaseScenes {
         scene.enter(ctx => {
             ctx.reply('لطفا ایدی ادمین را وارد کنید')
             scene.on('text', ctx => {
-                const adminIndex = ctx.sessionDB.__wrapped__.admins.findIndex((admin: IAdmin) => admin.id == ctx.message.text)
+                const adminIndex = ctx.sessionDB.__wrapped__.admins.findIndex((admin: IAdmin) => String(admin.id) == ctx.message.text)
 
                 if (adminIndex != -1) {
                     ctx.sessionDB.get('admins').splice(adminIndex, 1).write()
@@ -182,7 +182,7 @@ export namespace BaseScenes {
         scene.enter(ctx => {
             ctx.reply('لطفا ایدی گروه را وارد کنید')
             scene.on('text', ctx => {
-                const groupIndex = ctx.sessionDB.__wrapped__.groups.groups.findIndex((group: IGroup) => group.id == ctx.message.text)
+                const groupIndex = ctx.sessionDB.__wrapped__.groups.groups.findIndex((group: IGroup) => String(group.info.id) == ctx.message.text)
 
                 if (groupIndex != -1) ctx.sessionDB.get('groups').get('groups').splice(groupIndex, 1).write()
 

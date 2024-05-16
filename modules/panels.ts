@@ -119,7 +119,7 @@ export namespace User {
             }),
 
             onSendMessageToGroup: () =>
-            bot.on('message', ctx => {
+            bot.on('message', (ctx: any) => {
                 const groupIndex = ctx.sessionDB.__wrapped__.groups.groups.findIndex((group: IGroup) => group.info.id == ctx.chat.id)
 
                 if (ctx.chat.type == 'group' || ctx.chat.type == 'supergroup') {

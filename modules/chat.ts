@@ -11,10 +11,10 @@ interface ICheckUserPlan {
 }
 
 interface IDynamicText {
-    expirePlanYear: number
-    user: string
-    openChatHour: string
-    stopChatHour: string
+    expirePlanYear?: any
+    user?: any
+    openChatHour?: any
+    stopChatHour?: any
 }
 
 export function expiredPlanDate (expirePlanYear: number): string {
@@ -40,13 +40,13 @@ export function checkUserPlan (users: any, userId: number): ICheckUserPlan {
     } else return { isExpired: false }
 }
 
-export function dynamicText (text: string, { expirePlanYear, user, openChatHour, stopChatHour }: IDynamicText ): string {
+export function dynamicText (text: string, dynamic_text: IDynamicText ): string {
     var replacedText: string = text
     try {
-        replacedText = replacedText.replace('__date', expiredPlanDate(expirePlanYear))
-        replacedText = replacedText.replace('__user', user)
-        replacedText = replacedText.replace('__open', openChatHour)
-        replacedText = replacedText.replace('__stop', stopChatHour)
+        replacedText = replacedText.replace('__date', expiredPlanDate(dynamic_text.expirePlanYear))
+        replacedText = replacedText.replace('__user', dynamic_text.user)
+        replacedText = replacedText.replace('__open', dynamic_text.openChatHour)
+        replacedText = replacedText.replace('__stop', dynamic_text.stopChatHour)
         return replacedText
     } catch (err) {
         return text
