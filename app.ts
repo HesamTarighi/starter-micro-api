@@ -1,5 +1,5 @@
 import './modules/global'
-import dotenv from 'dotenv'
+// import dotenv from 'dotenv'
 import { Scenes } from 'telegraf'
 import { bot } from './config/bot.config'
 import { BaseScenes, WizardScene } from './scene/scene'
@@ -20,7 +20,7 @@ const stage: any = new Scenes.Stage([
 ])
 
 // init usage
-dotenv.config()
+// dotenv.config()
 bot.use(localSession.middleware())
 bot.use(stage.middleware())
 // timers
